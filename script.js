@@ -30,6 +30,7 @@ close.addEventListener("click", () => {
     })
 })
 
+// removal of navigation menu when dark background is clicked
 body.addEventListener("click", () => {
     navigation.classList.remove("active")
     setTimeout(() => {
@@ -41,11 +42,5 @@ body.addEventListener("click", () => {
 arrow.forEach((lst) => {
     lst.addEventListener("click", () => {
         lst.classList.toggle("active")
-    })
-    lst.addEventListener("mouseenter", () => {
-        lst.classList.add("active")
-    })
-    lst.addEventListener("mouseleave", () => {
-        lst.classList.remove("active")
     })
 })

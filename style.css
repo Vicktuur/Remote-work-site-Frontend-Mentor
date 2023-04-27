@@ -285,7 +285,15 @@ footer img {
         background-color: hsl(0, 0%, 8%);
         padding: 15px;
         border-radius: 15px;
-        border: none;
+        
+        margin: 30px 0;
+    }
+
+    section button:hover {
+        color: hsl(0, 0%, 8%);
+        background-color: white;
+        border: 1px solid hsl(0, 0%, 8%);
+        cursor: pointer;
     }
     
     footer {
