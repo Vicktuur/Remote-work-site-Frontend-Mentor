@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/FireShot Capture 032 - Remote Work - 127.0.0.1.png)
-![](./images/FireShot Capture 036 - Remote Work - 127.0.0.1.png)
-![](./images/FireShot Capture 037 - Remote Work - 127.0.0.1.png)
-![](./images/FireShot Capture 039 - Remote Work - 127.0.0.1.png)
+![](./FireShot Capture 032 - Remote Work - 127.0.0.1.png)
+![](./FireShot Capture 036 - Remote Work - 127.0.0.1.png)
+![](./FireShot Capture 037 - Remote Work - 127.0.0.1.png)
+![](./FireShot Capture 039 - Remote Work - 127.0.0.1.png)
 
 ### Links
 
