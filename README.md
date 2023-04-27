@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://remotework.netlify.app)
 
 ## My process
 
@@ -46,6 +46,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [remotesite.com](https://www.remotework.netlify.app)
+
 - Frontend Mentor - [@Vicktuur](https://www.frontendmentor.io/profile/vicktuur)
 - Twitter - [@vicktuur_](https://www.twitter.com/vicktuur_)
