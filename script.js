@@ -5,40 +5,47 @@ const body = document.querySelector(".body")
 const close = document.querySelector("#close")
 const arrow = document.querySelectorAll(".features")
 
-// activation of navigation bar
-hamburger.addEventListener("click", () => {
+toggleOpen = () => {
+    //toggling the drop down menu
     navigation.classList.toggle("active")
 
     //setting delay on background color change
     setTimeout(() => {
         body.classList.add("active")
     }, 500);
-})
+}
 
-// deactivation of navigation bar
-close.addEventListener("click", () => {
+toggleClose = () => {
+    //closes the navigation bar
     navigation.classList.remove("active")
+    
     setTimeout(() => {
         body.classList.remove("active")
     }, 500)
+}
 
-    //deactivates drop down menu when closing
+// deactivation of drop down menu
+closeNav = () => {
     arrow.forEach((lst) => {
         close.addEventListener("click", () => {
             lst.classList.remove("active")
         })
     })
-})
+}
 
-// removal of navigation menu when dark background is clicked
-body.addEventListener("click", () => {
-    navigation.classList.remove("active")
-    setTimeout(() => {
-        body.classList.remove("active")
-    }, 500) 
-})
+// activation of navigation bar
+hamburger.addEventListener("click", toggleOpen)
 
-//drop down menu activation
+// deactivation of navigation bar on clicking the X symbol
+close.addEventListener("click", toggleClose)
+
+//deactivates drop down menu when closing navigation bar
+close.addEventListener("click", closeNav)
+
+// deactivation navigation bar when dark background is clicked
+body.addEventListener("click", toggleClose)
+
+// activation of drop down menu
 arrow.forEach((lst) => {
     lst.addEventListener("click", () => {
         lst.classList.toggle("active")
